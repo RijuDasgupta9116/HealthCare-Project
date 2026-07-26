@@ -1,0 +1,15 @@
+{
+	"name": "healthcareADFrd",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "80ff0c38-2bae-4e35-a6c5-3f1a2c6748f8",
+		"tenantId": "4ea8b6a2-9e93-416e-a979-e388f976b242"
+	}
+}

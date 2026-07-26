@@ -1,0 +1,21 @@
+{
+	"name": "ADLS_BRONZE_EMR_DATASET_HOSPITAL_A",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_BRONZE_EMR_HOSPITAL_A",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "EMR/hospital_a",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
